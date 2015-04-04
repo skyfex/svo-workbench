@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF21AD5C1536D00C00AB45B6 /* ply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF21AD5B1536D00C00AB45B6 /* ply.cpp */; };
+		DF3D14A1143EE8E4008280CF /* Framebuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF3D14A0143EE8E4008280CF /* Framebuffer.cpp */; };
+		DF4AAF8E137072C700D2B354 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4AAF8D137072C700D2B354 /* Cocoa.framework */; };
+		DF4AAF98137072C700D2B354 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF4AAF96137072C700D2B354 /* InfoPlist.strings */; };
+		DF4AAF9B137072C700D2B354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AAF9A137072C700D2B354 /* main.m */; };
+		DF4AAF9E137072C700D2B354 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DF4AAF9C137072C700D2B354 /* Credits.rtf */; };
+		DF4AAFA1137072C700D2B354 /* OctreeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AAFA0137072C700D2B354 /* OctreeAppDelegate.m */; };
+		DF4AAFA4137072C700D2B354 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4AAFA2137072C700D2B354 /* MainMenu.xib */; };
+		DF4AAFB11370732A00D2B354 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4AAFB01370732A00D2B354 /* OpenGL.framework */; };
+		DF4AAFB41370738100D2B354 /* OctreeView.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF4AAFB31370738100D2B354 /* OctreeView.mm */; };
+		DF4AAFC31370828500D2B354 /* vmath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4AAFC11370828500D2B354 /* vmath.cpp */; };
+		DF7C078C15456C6600773043 /* binvox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF7C078B15456C6600773043 /* binvox.cpp */; };
+		DFEB039F1563BF5800690CAC /* NSOpenGLView-imageFromView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEB039E1563BF5800690CAC /* NSOpenGLView-imageFromView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF21AD5B1536D00C00AB45B6 /* ply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ply.cpp; sourceTree = "<group>"; };
+		DF21AD5E1536D04B00AB45B6 /* ply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ply.h; sourceTree = "<group>"; };
+		DF3D14A0143EE8E4008280CF /* Framebuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Framebuffer.cpp; sourceTree = "<group>"; };
+		DF3D14A3143EE8ED008280CF /* Framebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Framebuffer.h; sourceTree = "<group>"; };
+		DF3D14A4143EF273008280CF /* glutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glutils.h; sourceTree = "<group>"; };
+		DF4AAF89137072C700D2B354 /* Octree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Octree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4AAF8D137072C700D2B354 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DF4AAF90137072C700D2B354 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DF4AAF91137072C700D2B354 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF4AAF92137072C700D2B354 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF4AAF95137072C700D2B354 /* Octree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Octree-Info.plist"; sourceTree = "<group>"; };
+		DF4AAF97137072C700D2B354 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF4AAF99137072C700D2B354 /* Octree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Octree-Prefix.pch"; sourceTree = "<group>"; };
+		DF4AAF9A137072C700D2B354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF4AAF9D137072C700D2B354 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DF4AAF9F137072C700D2B354 /* OctreeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OctreeAppDelegate.h; sourceTree = "<group>"; };
+		DF4AAFA0137072C700D2B354 /* OctreeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OctreeAppDelegate.m; sourceTree = "<group>"; };
+		DF4AAFA3137072C700D2B354 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DF4AAFB01370732A00D2B354 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DF4AAFB21370738100D2B354 /* OctreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctreeView.h; sourceTree = "<group>"; };
+		DF4AAFB31370738100D2B354 /* OctreeView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OctreeView.mm; sourceTree = "<group>"; };
+		DF4AAFBE1370770D00D2B354 /* Octree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Octree.h; sourceTree = "<group>"; };
+		DF4AAFC11370828500D2B354 /* vmath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vmath.cpp; sourceTree = "<group>"; };
+		DF4AAFC21370828500D2B354 /* vmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmath.h; sourceTree = "<group>"; };
+		DF7C078515456C3200773043 /* binvox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binvox.h; sourceTree = "<group>"; };
+		DF7C078B15456C6600773043 /* binvox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binvox.cpp; sourceTree = "<group>"; };
+		DFB785331473F1B000CE1857 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		DFEB039D1563BF5800690CAC /* NSOpenGLView-imageFromView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOpenGLView-imageFromView.h"; sourceTree = "<group>"; };
+		DFEB039E1563BF5800690CAC /* NSOpenGLView-imageFromView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOpenGLView-imageFromView.m"; sourceTree = "<group>"; };
+		DFF2720D1472A8FC00D4350E /* OctreeSWRaytracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctreeSWRaytracer.h; sourceTree = "<group>"; };
+		DFF2720F1472CECA00D4350E /* OctreeGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctreeGL.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4AAF86137072C700D2B354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4AAFB11370732A00D2B354 /* OpenGL.framework in Frameworks */,
+				DF4AAF8E137072C700D2B354 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4AAF7E137072C700D2B354 = {
+			isa = PBXGroup;
+			children = (
+				DF4AAF93137072C700D2B354 /* Octree */,
+				DF4AAF8C137072C700D2B354 /* Frameworks */,
+				DF4AAF8A137072C700D2B354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4AAF8A137072C700D2B354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AAF89137072C700D2B354 /* Octree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4AAF8C137072C700D2B354 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AAF8D137072C700D2B354 /* Cocoa.framework */,
+				DF4AAF8F137072C700D2B354 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4AAF8F137072C700D2B354 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AAFB01370732A00D2B354 /* OpenGL.framework */,
+				DF4AAF90137072C700D2B354 /* AppKit.framework */,
+				DF4AAF91137072C700D2B354 /* CoreData.framework */,
+				DF4AAF92137072C700D2B354 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DF4AAF93137072C700D2B354 /* Octree */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AAFC01370827A00D2B354 /* Libraries */,
+				DF4AAFB21370738100D2B354 /* OctreeView.h */,
+				DF4AAFB31370738100D2B354 /* OctreeView.mm */,
+				DF4AAF9F137072C700D2B354 /* OctreeAppDelegate.h */,
+				DF4AAFA0137072C700D2B354 /* OctreeAppDelegate.m */,
+				DF4AAFA2137072C700D2B354 /* MainMenu.xib */,
+				DF4AAF94137072C700D2B354 /* Supporting Files */,
+				DF4AAFBE1370770D00D2B354 /* Octree.h */,
+				DF3D14A0143EE8E4008280CF /* Framebuffer.cpp */,
+				DF3D14A3143EE8ED008280CF /* Framebuffer.h */,
+				DF3D14A4143EF273008280CF /* glutils.h */,
+				DFF2720D1472A8FC00D4350E /* OctreeSWRaytracer.h */,
+				DFF2720F1472CECA00D4350E /* OctreeGL.h */,
+				DFB785331473F1B000CE1857 /* Shared.h */,
+			);
+			path = Octree;
+			sourceTree = "<group>";
+		};
+		DF4AAF94137072C700D2B354 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AAF95137072C700D2B354 /* Octree-Info.plist */,
+				DF4AAF96137072C700D2B354 /* InfoPlist.strings */,
+				DF4AAF99137072C700D2B354 /* Octree-Prefix.pch */,
+				DF4AAF9A137072C700D2B354 /* main.m */,
+				DF4AAF9C137072C700D2B354 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF4AAFC01370827A00D2B354 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DF4AAFC11370828500D2B354 /* vmath.cpp */,
+				DF7C078B15456C6600773043 /* binvox.cpp */,
+				DF4AAFC21370828500D2B354 /* vmath.h */,
+				DF21AD5B1536D00C00AB45B6 /* ply.cpp */,
+				DF21AD5E1536D04B00AB45B6 /* ply.h */,
+				DF7C078515456C3200773043 /* binvox.h */,
+				DFEB039D1563BF5800690CAC /* NSOpenGLView-imageFromView.h */,
+				DFEB039E1563BF5800690CAC /* NSOpenGLView-imageFromView.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4AAF88137072C700D2B354 /* Octree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4AAFA7137072C700D2B354 /* Build configuration list for PBXNativeTarget "Octree" */;
+			buildPhases = (
+				DF4AAF85137072C700D2B354 /* Sources */,
+				DF4AAF86137072C700D2B354 /* Frameworks */,
+				DF4AAF87137072C700D2B354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Octree;
+			productName = Octree;
+			productReference = DF4AAF89137072C700D2B354 /* Octree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4AAF80137072C700D2B354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = NTNU;
+			};
+			buildConfigurationList = DF4AAF83137072C700D2B354 /* Build configuration list for PBXProject "Octree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF4AAF7E137072C700D2B354;
+			productRefGroup = DF4AAF8A137072C700D2B354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4AAF88137072C700D2B354 /* Octree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4AAF87137072C700D2B354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4AAF98137072C700D2B354 /* InfoPlist.strings in Resources */,
+				DF4AAF9E137072C700D2B354 /* Credits.rtf in Resources */,
+				DF4AAFA4137072C700D2B354 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4AAF85137072C700D2B354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4AAF9B137072C700D2B354 /* main.m in Sources */,
+				DF4AAFA1137072C700D2B354 /* OctreeAppDelegate.m in Sources */,
+				DF4AAFB41370738100D2B354 /* OctreeView.mm in Sources */,
+				DF4AAFC31370828500D2B354 /* vmath.cpp in Sources */,
+				DF3D14A1143EE8E4008280CF /* Framebuffer.cpp in Sources */,
+				DF21AD5C1536D00C00AB45B6 /* ply.cpp in Sources */,
+				DF7C078C15456C6600773043 /* binvox.cpp in Sources */,
+				DFEB039F1563BF5800690CAC /* NSOpenGLView-imageFromView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF4AAF96137072C700D2B354 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4AAF97137072C700D2B354 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF4AAF9C137072C700D2B354 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4AAF9D137072C700D2B354 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DF4AAFA2137072C700D2B354 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4AAFA3137072C700D2B354 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF4AAFA5137072C700D2B354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF4AAFA6137072C700D2B354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF4AAFA8137072C700D2B354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octree/Octree-Prefix.pch";
+				INFOPLIST_FILE = "Octree/Octree-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Octree/fpgalink\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF4AAFA9137072C700D2B354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Octree/Octree-Prefix.pch";
+				INFOPLIST_FILE = "Octree/Octree-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Octree/fpgalink\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4AAF83137072C700D2B354 /* Build configuration list for PBXProject "Octree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4AAFA5137072C700D2B354 /* Debug */,
+				DF4AAFA6137072C700D2B354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4AAFA7137072C700D2B354 /* Build configuration list for PBXNativeTarget "Octree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4AAFA8137072C700D2B354 /* Debug */,
+				DF4AAFA9137072C700D2B354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF4AAF80137072C700D2B354 /* Project object */;
+}
