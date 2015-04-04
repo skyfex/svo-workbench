@@ -168,16 +168,18 @@ static float _top = _near;
     glTranslatef(0, 0, -0.8);
     glScalef(0.7,0.7,0.7);
 
-//    [self drawBunny];
+    [self drawBunny];
     glPopMatrix();
     
+    /*
     glScalef(2,2,2);
     glTranslatef(0,0.5,0);
     glDisable(GL_LIGHTING);
     glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
-    [self drawBunny];
+     */
+    //[self drawBunny];
     
-    glTranslatef(0,-1,0);
+    //glTranslatef(0,-1,0);
 //    [self drawHappy];
     
     glDisable(GL_LIGHTING);
